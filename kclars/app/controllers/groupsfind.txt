@@ -1,0 +1,18 @@
+<strong><%= @groups.find(3).title %></strong> 
+
+<a href="#"class="close"/>Close it</a>
+<div  style="height: 250px;overflow: auto;">
+<table border="1">
+<tr>
+  <td>Location:</td>
+  <td> <%= @groups.find(3).city %>, <%= @groups.find(3).zip %></td>
+
+</tr>
+<tr>
+  <td style="vertical-align:top">Desription:</td>
+  <td><%= @groups.find(3).description %></td>
+</tr>
+<tr>
+  <td style="vertical-align:top">Topics:</td>
+  <td><%= @groups.find(3).topics %></td>
+</tr>  

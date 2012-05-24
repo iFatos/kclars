@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  student_id: 1
+  group_id: 1
+  event_id: 1
+  rsvpdate: 2012-03-27
+
+two:
+  student_id: 1
+  group_id: 1
+  event_id: 1
+  rsvpdate: 2012-03-27

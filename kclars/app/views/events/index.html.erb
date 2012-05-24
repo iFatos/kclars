@@ -1,0 +1,57 @@
+<div class="event_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag events_path, :method => 'get' do %>
+<p style="align:left"> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+
+</p>
+<p style="padding:10px;background: #E5E2DD;margin-right:700px"><%= link_to 'New Event', new_event_path %></p>
+</div>
+
+
+<table border="1" width="100%">
+ <tr>
+  <td>Id</td>
+  <td>Title</td>
+  <td>Description</td>
+  <td>City</td>
+  <td>Address</td>
+  <td>Group Name</td>
+  <td>Time</td>
+  <td>Date</td>
+ </tr>
+<% @events.each do |event| %>
+  <tr>
+   <td><%= event.id %></td>
+   <td><a href="#dialog" name="modal"><%= event.title %></a></td>
+   <td><%= truncate_descevent(%Q(#{event.description})) %></td>
+   <td><%= event.city %></td>
+   <td><%= event.address %></td>
+   <td><%= event.group_id %></td>
+   <td><%= event.time_t %></td>
+   <td><%= event.date_t %></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @events %>
+
+</div>
+<div id="boxes">
+<div id="dialog" class="window">
+
+ | 
+
+<a href="#"class="close"/>Close it</a>
+<table border="1">
+<tr><td> Hello</td><td>there</td></tr>
+<tr><td>Whats</td><td>up</td></tr>
+</table>
+
+</div>
+<div id="mask"></div>
+</div>
+

@@ -1,0 +1,90 @@
+
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+</div>
+<table border="1">
+ <tr>
+  <td>id</td>
+  <td>Name</td>
+  <td>Student ID</td>
+  <td>Modules</td>
+  <td>Year </td>
+  <td>Semester</td>
+  <td>Browsing History</td>
+  <td>Zip Code</td>
+ </tr>
+<% @stud.each do |stud| %>
+  <tr>
+   <td><%= stud.id %></td>
+   <td><%= stud.name %></td>
+   <td><%= stud.studentid %></td>
+   <td><%= stud.cmodules %></td>
+   <td><%= stud.cyear %></td>
+   <td><%= stud.csemester %></td>
+    <td><%= stud.browsinghistory %></td>
+   <td><%= stud.homezip %></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @stud %>
+
+
+
+
+
+
+
+
+
+
+
+class StudentsController < ApplicationController
+  def index
+   
+    @stud = Student.where("name LIKE '%#{params[:search]}%'").order('id').page(params[:page]).per(15)
+    
+    respond_to do |format|
+      format.html # index.html.erb
+      format.xml  { render :xml => @stud }
+      format.json { render :json => @stud }
+    end
+
+  end
+
+  def create
+   @stud = Student.new(params[:stud])
+
+   respond_to |format|
+    if @stud.save
+     format.html { redirect_to @stud, notic: 'Student was succesfully created.'}
+     format.json { render json: @stud, status: :created, location: @stud }
+     format.xml { render xml: @stud, status: :created, location: @stud }
+    else
+     format.html { render action: "new" }
+     format.json { render json: @stud.errors, status: :unprocessable_entity }
+     format.xml { render xml: @stud.errors, status: :unprocessable_entity }
+    end
+   end
+  end
+
+  def update
+  end
+
+  def new
+  end
+
+  def delete
+  end
+  
+  def show
+  end
+
+end

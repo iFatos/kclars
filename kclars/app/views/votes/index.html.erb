@@ -1,0 +1,37 @@
+<div class=vote_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+
+</div>
+<table>
+  <tr>
+    <th>Eventid</th>
+    <th>Studentid</th>
+    <th>Vote</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @votes.each do |vote| %>
+  <tr>
+    <td><%= vote.event_id %></td>
+    <td><%= vote.student_id %></td>
+    <td><%= vote.vote %></td>
+    <td><%= link_to 'Show', vote %></td>
+    <td><%= link_to 'Edit', edit_vote_path(vote) %></td>
+    <td><%= link_to 'Destroy', vote, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Vote', new_vote_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  eventid: 1
+  studentid: 1
+  vote: 1
+
+two:
+  eventid: 1
+  studentid: 1
+  vote: 1

@@ -1,0 +1,67 @@
+
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ 
+#boxes #dialog {
+  width:600px; 
+  height:300px;
+  padding:10px;
+  background-color:#ffffff;
+}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+body {
+ background: #fff
+}
+header {
+ background: #343C3E
+}
+
+.nav_header {
+ float: right;
+ vertical-align: middle;
+ padding-right: 150px;
+ padding-top: 4em;
+}
+.nav_header h1 {
+ color: white;
+}
+
+.group_table {
+ background: #E5E2DD
+}
+.event_table {
+ background: #E5E2DD
+}
+
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}

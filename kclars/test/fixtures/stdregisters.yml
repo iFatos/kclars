@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  stdid: MyString
+  fname: MyString
+  lname: MyString
+  modules: MyText
+  tutor: MyString
+
+two:
+  stdid: MyString
+  fname: MyString
+  lname: MyString
+  modules: MyText
+  tutor: MyString

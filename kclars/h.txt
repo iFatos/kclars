@@ -1,0 +1,1000 @@
+ 1003  nano 20120318210356_add_email_uniquness_index.rb 
+ 1004  bundle exec rake db:migrate
+ 1005  cd ..
+ 1006  cd app
+ 1007  cd views
+ 1008  cd layouts/
+ 1009  ls
+ 1010  nano application.html.erb 
+ 1011  cd ..
+ 1012  ls
+ 1013  cd users
+ 1014  ls
+ 1015  nano show.html.erb
+ 1016  cd ..
+ 1017  cd controllers/
+ 1018  l
+ 1019  nano users_controller.rb 
+ 1020  cd ..
+ 1021  cd config
+ 1022  nano routes.rb 
+ 1023  bundle exec rake db:reset
+ 1024  cd ..
+ 1025  cd app
+ 1026  cd models
+ 1027  l
+ 1028  nano user.rb 
+ 1029  rails generate migration add_password_to_users encrypted_password:string
+ 1030  cd ..
+ 1031  ls
+ 1032  cd modesl
+ 1033  cd models
+ 1034  l
+ 1035  nano user.rb 
+ 1036  cd ..
+ 1037  ls
+ 1038  cd ..
+ 1039  cd db
+ 1040  ls
+ 1041  cd migrate/
+ 1042  l
+ 1043  cd ..
+ 1044  l
+ 1045  nano s
+ 1046  nano schema.rb 
+ 1047  l
+ 1048  cd ..
+ 1049  cd mi
+ 1050  cd db
+ 1051  cd migrate/
+ 1052  l
+ 1053  nano 20120318
+ 1054  l
+ 1055  nano 20120318232103_add_password_to_users.rb 
+ 1056  bundle exec rake db:migrate
+ 1057  cd Desktop
+ 1058  cd rubyonrailstut/
+ 1059  clear
+ 1060  l
+ 1061  cd sample_app/
+ 1062  l
+ 1063  clear
+ 1064  ls
+ 1065  rails s
+ 1066  cd Desktop/rubyonrailstut/
+ 1067  clear
+ 1068  cd sample_app/
+ 1069  clear
+ 1070  cd app
+ 1071  cd controllers/
+ 1072  ls
+ 1073  cd ..
+ 1074  l
+ 1075  cd model
+ 1076  ls
+ 1077  cd models
+ 1078  l
+ 1079  nano user.rb 
+ 1080  clear
+ 1081  nano user.rb 
+ 1082  nano .bashrc
+ 1083  nano ~/.bashrc
+ 1084  echo $PS1
+ 1085  nano ~/.bashrc
+ 1086  cd ..
+ 1087  cd .
+ 1088  cd ..
+ 1089  cd Desktop
+ 1090  cd rubyonrailstut/
+ 1091  $
+ 1092  cd Desktop
+ 1093  cd rubyonrailstut/
+ 1094  clear
+ 1095  ls
+ 1096  cd sample_app/
+ 1097  ls
+ 1098  clear
+ 1099  ls
+ 1100  clear
+ 1101  rails console 
+ 1102  cd Desktop
+ 1103  cd rubyonrailstut/
+ 1104  clear
+ 1105  sudo nano ~/.bashrc
+ 1106  cd Desktop
+ 1107  cd rubyonrailstut/
+ 1108  clear
+ 1109  cd sample_app/
+ 1110  clear
+ 1111  rails 
+ 1112  clear
+ 1113  rails s
+ 1114  cd Desktop
+ 1115  cd rubyonrailstut/
+ 1116  cd sample_app/
+ 1117  clear
+ 1118  rails s
+ 1119  cd Desktop
+ 1120  clear
+ 1121  cd rubyonrailstut/
+ 1122  cd sample_app/
+ 1123  clear
+ 1124  rails s
+ 1125  ls
+ 1126  rails generate migration add_salt_to_users salt:string
+ 1127  cd db
+ 1128  cd migrate
+ 1129  nano 20120319011
+ 1130  nano 20120319011832_add_salt_to_users.rb 
+ 1131  bundle exec rake db:migrate
+ 1132  cd ..
+ 1133  cd app
+ 1134  cd controllers/
+ 1135  l
+ 1136  cd ..
+ 1137  cd models
+ 1138  l
+ 1139  nano user.rb 
+ 1140  cd.
+ 1141  cd ..
+ 1142  cd rortwitterwiki
+ 1143  clear
+ 1144  nano somecode.rb
+ 1145  ruby somecode.rb
+ 1146  open("hello-world.txt", 'w')
+ 1147  nano somecode.rb
+ 1148  ruby somecode.rb
+ 1149  nano somecode.rb
+ 1150  ruby somecode.rb
+ 1151  nano somecode.rb
+ 1152  ruby somecode.rb
+ 1153  clear
+ 1154  nano somecode.rb
+ 1155  ruby somecode.rb
+ 1156  l
+ 1157  nano somecode.rb
+ 1158  rails console
+ 1159  adb
+ 1160  adb devices
+ 1161  cd Desktop
+ 1162  cd MITappinventor/
+ 1163  clear
+ 1164  hg clone https://code.google.com/p/app-inventor-releases/
+ 1165  hg
+ 1166  sudo apt-get install mercurial
+ 1167  cd /usr/
+ 1168  ls
+ 1169  cd google
+ 1170  cd ..
+ 1171  cd home/tropche
+ 1172  ls
+ 1173  cd Desktop
+ 1174  l
+ 1175  clear
+ 1176  cd ~./appinventor
+ 1177  locate appinventor
+ 1178  whereis appinventor
+ 1179  where appinventor
+ 1180  sudo dpkg --install appinventor-setup_1.1_all.deb
+ 1181  sudo apt-cache pkgname | grep appinv
+ 1182  sudo apt-get purge appinventor-setup
+ 1183  cd ~/appinventor
+ 1184  cd ~./appinventor
+ 1185  whereis /appinventor
+ 1186  locate /appinventor
+ 1187  l
+ 1188  cd MITappinventor/
+ 1189  l
+ 1190  cd app-inventor-releases/
+ 1191  l
+ 1192  cd appinventor/
+ 1193  l
+ 1194  cd build
+ 1195  l
+ 1196  cd appengine/
+ 1197  l
+ 1198  pwd
+ 1199  ls
+ 1200  cd ..
+ 1201  l
+ 1202  cd lib
+ 1203  ls
+ 1204  cd ..
+ 1205  l
+ 1206  cd aiphoneapp
+ 1207  l
+ 1208  cd ..
+ 1209  l
+ 1210  cd com
+ 1211  cd components/
+ 1212  l
+ 1213  cd build
+ 1214  l
+ 1215  cd ..
+ 1216  l
+ 1217  cd ..
+ 1218  l
+ 1219  cd appengine/
+ 1220  l
+ 1221  cd src
+ 1222  ls
+ 1223  cd ..
+ 1224  ls
+ 1225  cd 
+ 1226  l
+ 1227  cd Desktop
+ 1228  cd MITappinventor/
+ 1229  ls
+ 1230  cd app-inventor-releases/
+ 1231  ls
+ 1232  clear
+ 1233  cd appinventor/
+ 1234  l
+ 1235  cd ..
+ 1236  cd .
+ 1237  .cd .
+ 1238  cd ..
+ 1239  clear
+ 1240  curl 'http://api.meetup.com/topics.json/?key=ABDE12456AB2324445&page=1'
+ 1241  curl 'http://api.meetup.com/topics.json/?key=5d5d103a5b6b1748384575e4e512f40&page=1'
+ 1242  curl -I 'http://api.meetup.com/members/?relation=self&key=yourapikey'
+ 1243  curl -I 'http://api.meetup.com/members/?relation=self&key=5d5d103a5b6b1748384575e4e512f40'
+ 1244  cd /usr/google/
+ 1245  cd /usr/google
+ 1246  cd Desktop
+ 1247  cd MITappinventor/
+ 1248  l
+ 1249  cd app-inventor-releases/
+ 1250  clear
+ 1251  ant
+ 1252  sudo apt-get install ant
+ 1253  ant
+ 1254  l
+ 1255  cd appinventor/
+ 1256  l
+ 1257  clear
+ 1258  ant
+ 1259  l
+ 1260  cd appengine/
+ 1261  l
+ 1262  cd ..
+ 1263  l
+ 1264  cd appengine/
+ 1265  l
+ 1266  cd build/
+ 1267  l
+ 1268  cd ..
+ 1269  l
+ 1270  cd ..
+ 1271  ant tests
+ 1272  l
+ 1273  cd appengine/
+ 1274  l
+ 1275  cd ..
+ 1276  locate dev_appserver.sh
+ 1277  whereis dev_appserver.sh
+ 1278  clear
+ 1279  cd ..
+ 1280  l
+ 1281  clear
+ 1282  cd rubyonrails\ /stuff
+ 1283  cd rubyonrails\ stuff
+ 1284  clear
+ 1285  l
+ 1286  cd rortwitterwiki/
+ 1287  l
+ 1288  irb
+ 1289  gem install ruby-json
+ 1290  irb
+ 1291  rails c
+ 1292  cd Desktop
+ 1293  cd rorkcland/
+ 1294  ls
+ 1295  curl -i http://stream.meetup.com/2/open_events
+ 1296  clear
+ 1297  ls
+ 1298  cd ..
+ 1299  mkdir kclars
+ 1300  cd kclars
+ 1301  clear
+ 1302  rails new kclars
+ 1303  ls
+ 1304  cd kclars/
+ 1305  ls
+ 1306  clear
+ 1307  railss
+ 1308  clear
+ 1309  rails s
+ 1310  gedit Gemfiel
+ 1311  gedit Gemfile
+ 1312  bundle install
+ 1313  git init
+ 1314  git add .
+ 1315  git commit -m "initial commit to kclars"
+ 1316  git remote add origin git@github.com:io
+ 1317  F
+ 1318  git remote add origin git@github.com:iFatos/kclars.git
+ 1319  git remote add kcl_origin git@github.com:iFatos/kclars.git
+ 1320  git push kcl_origin master
+ 1321  l
+ 1322  nano README
+ 1323  gedit README
+ 1324  git commit -m "edited README"
+ 1325  git push kcl_origin master
+ 1326  git add README
+ 1327  git commit -m "edited README"
+ 1328  git push kcl_origin master
+ 1329  cd ..
+ 1330  ls
+ 1331  cd rubyonrails
+ 1332  cd rubyonrailstut/
+ 1333  ls
+ 1334  cd sample_app/
+ 1335  l
+ 1336  cd app
+ 1337  cd models
+ 1338  l
+ 1339  nano user.rb 
+ 1340  cd ..
+ 1341  cd db
+ 1342  s
+ 1343  l
+ 1344  cd migrate/
+ 1345  l
+ 1346  nano 2012031
+ 1347  nano 20120318185650_create_users.rb 
+ 1348  cd ..
+ 1349  cd kclars
+ 1350  cd kclars/
+ 1351  clear
+ 1352  ls
+ 1353  rails generate model Group title:string dscription:text city:string events:int
+ 1354  rails generate controller Groups new
+ 1355  rails generate controller Pages home
+ 1356  cd ..
+ 1357  cd sampleshit/
+ 1358  l
+ 1359  cd app
+ 1360  cd
+ 1361  cd Desktop/sampleshit/
+ 1362  cd app
+ 1363  l
+ 1364  cd views
+ 1365  l
+ 1366  nano users/
+ 1367  cd users/
+ 1368  l
+ 1369  nano show.html.erb 
+ 1370  cd ..
+ 1371  l
+ 1372  cd ..
+ 1373  cl
+ 1374  cd views/
+ 1375  l
+ 1376  cd layouts/
+ 1377  l
+ 1378  nano application.html.erb 
+ 1379  cd ..
+ 1380  l
+ 1381  cd ..
+ 1382  l
+ 1383  cd helpers/
+ 1384  l
+ 1385  nano users_helper.rb 
+ 1386  cd ..
+ 1387  cd controllers/
+ 1388  l
+ 1389  nano users_controller.rb 
+ 1390  cd ..
+ 1391  cd kclars
+ 1392  l
+ 1393  cd kclars/
+ 1394  l
+ 1395  cd app
+ 1396  l
+ 1397  cd controllers/
+ 1398  l
+ 1399  nano groups_controller.rb 
+ 1400  cd ..
+ 1401  cd sampleshit/
+ 1402  l
+ 1403  cd app
+ 1404  cd controllers/
+ 1405  l
+ 1406  cd ..
+ 1407  l
+ 1408  cd app
+ 1409  cd views/
+ 1410  l
+ 1411  cd users/
+ 1412  l
+ 1413  nano index.html.erb 
+ 1414  cd config
+ 1415  l
+ 1416  nano routes.rb 
+ 1417  cd ..
+ 1418  cd app
+ 1419  cd controllers/
+ 1420  l
+ 1421  nano groups_controller.rb 
+ 1422  nano pages_controller.rb 
+ 1423  cd ..
+ 1424  cd views
+ 1425  ls
+ 1426  cd groups
+ 1427  l
+ 1428  nano ne
+ 1429  nano new.html.erb 
+ 1430  cd ..
+ 1431  l
+ 1432  clear
+ 1433  l
+ 1434  cd pages/
+ 1435  l
+ 1436  nano home.html.erb 
+ 1437  clear
+ 1438  l
+ 1439  cd ..
+ 1440  l
+ 1441  cd layouts/
+ 1442  l
+ 1443  nano application.html.erb 
+ 1444  cd ..
+ 1445  l
+ 1446  cd pages
+ 1447  l
+ 1448  nano home.html.erb 
+ 1449  cd ..
+ 1450  l
+ 1451  cd controllers/
+ 1452  l
+ 1453  nano pages_controller.rb 
+ 1454  cd ..
+ 1455  cd views
+ 1456  l
+ 1457  cd pages
+ 1458  l
+ 1459  nano home.html.erb 
+ 1460  cd ..
+ 1461  l
+ 1462  cd ..
+ 1463  l
+ 1464  cd ..
+ 1465  cd public
+ 1466  l
+ 1467  rm index.html 
+ 1468  cd ..
+ 1469  cd app/controllers/
+ 1470  l
+ 1471  cd ..
+ 1472  l
+ 1473  cd views/
+ 1474  l
+ 1475  cd pages/
+ 1476  l
+ 1477  nano home.html.erb 
+ 1478  bundle exec rake db:migrate
+ 1479  cd ..
+ 1480  cd db
+ 1481  l
+ 1482  cd migrate/
+ 1483  l
+ 1484  cd 20120
+ 1485  nano 20120320233122_create_groups.rb 
+ 1486  bundle exec rake db:migrate
+ 1487  clear
+ 1488  l
+ 1489  cd ..
+ 1490  cd app
+ 1491  l
+ 1492  cd views
+ 1493  l
+ 1494  cd layouts/
+ 1495  l
+ 1496  nano application.html.erb 
+ 1497  rm application.html.erb 
+ 1498  nano application.html.erb
+ 1499  cd ..
+ 1500  cd vi
+ 1501  l
+ 1502  cd pages
+ 1503  l
+ 1504  nano home.html.erb 
+ 1505  cd ..
+ 1506  cd la
+ 1507  l
+ 1508  cd la
+ 1509  l
+ 1510  cd layouts/
+ 1511  l
+ 1512  nano aap
+ 1513  nano application.html.erb 
+ 1514  cd ..
+ 1515  l
+ 1516  clear
+ 1517  l
+ 1518  cd pag
+ 1519  l
+ 1520  cd pages/
+ 1521  l
+ 1522  nano home.html.erb 
+ 1523  clear
+ 1524  cd ..
+ 1525  cd models
+ 1526  l
+ 1527  nano group.rb 
+ 1528  cd ..
+ 1529  cd db
+ 1530  l
+ 1531  cd migrate/
+ 1532  l
+ 1533  nano 20120320233122_create_groups.rb 
+ 1534  bundle exec rake db:rollback
+ 1535  l
+ 1536  cd 201
+ 1537  nano 20120320233122_create_groups.rb 
+ 1538  bundle exec rake db:migrate
+ 1539  clear
+ 1540  cd ..
+ 1541  cd app
+ 1542  cd controllers/
+ 1543  l
+ 1544  nano groups_controller.rb 
+ 1545  cd ..
+ 1546  l
+ 1547  cd views
+ 1548  l
+ 1549  cd groups/
+ 1550  l
+ 1551  nano new.html.erb 
+ 1552  nano show.html.erb
+ 1553  cd ..
+ 1554  cd config
+ 1555  nano routes.rb 
+ 1556  cd ..
+ 1557  l
+ 1558  cd app
+ 1559  l
+ 1560  cd helpers
+ 1561  l
+ 1562  nano groups_helper.rb 
+ 1563  cd ..
+ 1564  cd views/
+ 1565  l
+ 1566  cd groups/
+ 1567  l
+ 1568  nano show.html.erb 
+ 1569  ls
+ 1570  cd .
+ 1571  cd ..
+ 1572  cd models
+ 1573  l
+ 1574  nano group.rb 
+ 1575  cd ..
+ 1576  cd controllers/
+ 1577  l
+ 1578  cd gro
+ 1579  nano groups_controller.rb 
+ 1580  cd ..
+ 1581  cd views
+ 1582  l
+ 1583  cd groups/
+ 1584  l
+ 1585  nano show.html.erb 
+ 1586  cd..
+ 1587  cd ..
+ 1588  cd controllers/
+ 1589  l
+ 1590  nano groups_controller.rb 
+ 1591  cd ..
+ 1592  cd models
+ 1593  l
+ 1594  nano group.rb 
+ 1595  cd ..
+ 1596  rails new sampleshit
+ 1597  cd sampleshit/
+ 1598  l
+ 1599  rails s
+ 1600  rails generate scaffold User name:string surname:string age:integer
+ 1601  nano Gemfile
+ 1602  bundle install
+ 1603  bundle exec rake db:migrate
+ 1604  rails 
+ 1605  rails s
+ 1606  cd ..
+ 1607  cd kclars/
+ 1608  l
+ 1609  cd app
+ 1610  cd views
+ 1611  l
+ 1612  cd pa
+ 1613  cd pages/
+ 1614  l
+ 1615  cd ..
+ 1616  cd groups/
+ 1617  l
+ 1618  nano index.html.erb
+ 1619  cd ..
+ 1620  cd .
+ 1621  cd ..
+ 1622  cd controllers/
+ 1623  l
+ 1624  nano groups_controller.rb 
+ 1625  cd ..
+ 1626  cd view
+ 1627  l
+ 1628  cd views
+ 1629  l
+ 1630  cd groups/
+ 1631  l
+ 1632  nano index.html.erb 
+ 1633  cd ..
+ 1634  cd con
+ 1635  cd controllers/
+ 1636  l
+ 1637  nano groups_controller.rb 
+ 1638  cd ..
+ 1639  cd views
+ 1640  l
+ 1641  cd pages
+ 1642  l
+ 1643  cd ..
+ 1644  cd go
+ 1645  cd groups/
+ 1646  l
+ 1647  nano index.html.erb 
+ 1648  l
+ 1649  cd ..
+ 1650  l
+ 1651  cd groups/
+ 1652  l
+ 1653  cd ..
+ 1654  l
+ 1655  cd layouts/
+ 1656  l
+ 1657  clea
+ 1658  clear
+ 1659  l
+ 1660  gedit application.html.erb 
+ 1661  l
+ 1662  cd ..
+ 1663  l
+ 1664  cd groups/
+ 1665  l
+ 1666  nano inde
+ 1667  nano index.html.erb 
+ 1668  cd ..
+ 1669  cd groups/
+ 1670  l
+ 1671  nano show.html.erb 
+ 1672  cd ..
+ 1673  cd rubyonrailstut/
+ 1674  l
+ 1675  cd sample_app/
+ 1676  l
+ 1677  cd public
+ 1678  l
+ 1679  cd javascripts/
+ 1680  l
+ 1681  cd ..
+ 1682  cd stylesheets/
+ 1683  l
+ 1684  cd ..
+ 1685  l
+ 1686  cd ..
+ 1687  ll
+ 1688  l
+ 1689  cd app
+ 1690  l
+ 1691  cd views
+ 1692  l
+ 1693  cd pages/
+ 1694  l
+ 1695  nano about.html.erb 
+ 1696  cd .
+ 1697  cd ..
+ 1698  k
+ 1699  l
+ 1700  cd layouts/
+ 1701  l
+ 1702  nano _stylesheets.html.erb 
+ 1703  nano application.html.erb 
+ 1704  nano _stylesheets.html.erb 
+ 1705  rails console --sandbox
+ 1706  rails console
+ 1707  cd ..
+ 1708  cd views
+ 1709  l
+ 1710  cd groups/
+ 1711  ;
+ 1712  l
+ 1713  cd ..
+ 1714  cd layouts/
+ 1715  l
+ 1716  nano _stylesheets.html.erb
+ 1717  cd ..
+ 1718  l
+ 1719  cd groups/
+ 1720  l
+ 1721  nano index.html.erb 
+ 1722  cd Desktop
+ 1723  mkdir catroid
+ 1724  cd catroid
+ 1725  hg clone https://code.google.com/p/catroid/
+ 1726  l
+ 1727  cd catroid
+ 1728  l
+ 1729  cd ..
+ 1730  cd eclipse
+ 1731  l
+ 1732  sudo ./eclipse
+ 1733  curl -i http://stream.meetup.com/2/open_events
+ 1734  clear
+ 1735  cd Desktop
+ 1736  l
+ 1737  cd kclars/
+ 1738  l
+ 1739  cd kclars/
+ 1740  clear
+ 1741  l
+ 1742  rails s
+ 1743  cd Desktop
+ 1744  cd eclipse
+ 1745  l
+ 1746  clear
+ 1747  l
+ 1748  sudo ./eclipse
+ 1749  l
+ 1750  cd app
+ 1751  l
+ 1752  cd controllers/
+ 1753  l
+ 1754  nano groups_controller.rb 
+ 1755  cd ..
+ 1756  l
+ 1757  cd models/
+ 1758  l
+ 1759  nano rg
+ 1760  nano group.rb 
+ 1761  l
+ 1762  cd ..
+ 1763  l
+ 1764  cd .
+ 1765  cd ..
+ 1766  cd db
+ 1767  l
+ 1768  cd migrate/
+ 1769  l
+ 1770  nano 20120320233122_create_groups.rb 
+ 1771  bundle exec rake db:rollback
+ 1772  l
+ 1773  nano 20120320233122_create_groups.rb 
+ 1774  bundle exec rake db:migrate
+ 1775  cd ..
+ 1776  cd app
+ 1777  cd views
+ 1778  l
+ 1779  cd groups/
+ 1780  l
+ 1781  nano index.html.erb 
+ 1782  l
+ 1783  cd .
+ 1784  ccd 
+ 1785  cd ..
+ 1786  clear
+ 1787  l
+ 1788  cd ..
+ 1789  l
+ 1790  cd lib]
+ 1791  cd lib
+ 1792  l
+ 1793  cd tasks/
+ 1794  l
+ 1795  cd ..
+ 1796  gem install json
+ 1797  cd lib
+ 1798  cd ..
+ 1799  cd app
+ 1800  cd helpers
+ 1801  l
+ 1802  nano groups_helper.rb 
+ 1803  cd ..
+ 1804  l
+ 1805  cd controllers/
+ 1806  l
+ 1807  nano groups_controller.rb 
+ 1808  wget http://dev.midnightcoding.org/redmine/attachments/download/17/gummi_0.4.5-0ubuntu1_all.deb
+ 1809  sudo dpkg -i gummi_0.4.5-0ubuntu1_all.deb
+ 1810  clear
+ 1811  sudo add-apt-repository ppa:gwibber-daily/ppa
+ 1812  sudo apt-get update
+ 1813  deb http://ppa.launchpad.net/gummi/gummi/ubuntu maverick main 
+ 1814  sudo apt-get install gummi
+ 1815  cd Desktop
+ 1816  curl -I 'http://api.meetup.com/members/?relation=self&key=5d5d103a5b6b1748384575e4e512f40
+ 1817  '
+ 1818  "This is a group for those who would like to learn the basics of northern soul dancing",
+ 1819  curl -I 'http://api.meetup.com/members/?relation=self&key=5d5d103a5b6b1748384575e4e512f40
+ 1820  '
+ 1821  irb
+ 1822  cd ..c
+ 1823  cd ..
+ 1824  cd db
+ 1825  cd ..
+ 1826  cd db
+ 1827  clear
+ 1828  cd migrate/
+ 1829  l
+ 1830  nano 20120320233122_create_groups.rb 
+ 1831  cd Desktop
+ 1832  clear
+ 1833  l
+ 1834  cd kcla
+ 1835  cd kclars
+ 1836  cd kclars/
+ 1837  l
+ 1838  clear
+ 1839  l
+ 1840  rails s
+ 1841  l
+ 1842  cd app
+ 1843  l
+ 1844  cd controllers/
+ 1845  l
+ 1846  clear
+ 1847  l
+ 1848  gedit groups_controller.rb 
+ 1849  nano groups_controller.rb 
+ 1850  cd ..
+ 1851  cd lib
+ 1852  nano GetGroups.rb
+ 1853  gedit GetGroups.rb 
+ 1854  cd ..
+ 1855  cd app
+ 1856  cd controllers/
+ 1857  l
+ 1858  nano groups_controller.rb 
+ 1859  ir
+ 1860  irb
+ 1861  cd ..
+ 1862  c d..
+ 1863  cd ..
+ 1864  irb
+ 1865  cd app
+ 1866  cd controllers/
+ 1867  l
+ 1868  nano groups_controller.rb 
+ 1869  cd ..
+ 1870  bundle exec rake db:rollback
+ 1871  bundle exec rake db:migrate
+ 1872  cd app
+ 1873  cd controllers/
+ 1874  l
+ 1875  nano groups_controller.rb 
+ 1876  l
+ 1877  cd ..
+ 1878  l
+ 1879  cd .
+ 1880  cd ..
+ 1881  l
+ 1882  nano myfile.txt
+ 1883  rm myfile.txt
+ 1884  l
+ 1885  cd app/controllers/
+ 1886  l
+ 1887  nano groups_controller.rb 
+ 1888  cd ...
+ 1889  cd .
+ 1890  cd ..
+ 1891  l
+ 1892  cd helpers/
+ 1893  l
+ 1894  nano groups_helper.rb 
+ 1895  cd ..
+ 1896  cd views/
+ 1897  l
+ 1898  cd groups/
+ 1899  l
+ 1900  nano index.html.erb 
+ 1901  cd ..
+ 1902  cd controllers/
+ 1903  l
+ 1904  nano groups_controller.rb 
+ 1905  rails c
+ 1906  l
+ 1907  clear
+ 1908  cd ..
+ 1909  cd views/
+ 1910  l
+ 1911  cd groups/
+ 1912  l
+ 1913  nano show.html.erb 
+ 1914  cd ..
+ 1915  cd controllers/
+ 1916  l
+ 1917  nano groups_controller.rb 
+ 1918  bundle exec rake db:rollback
+ 1919  bundle exec rake db:migrate
+ 1920  cd .
+ 1921  cd ..
+ 1922  l
+ 1923  cd ..
+ 1924  l
+ 1925  rm myfile.txt 
+ 1926  cd app
+ 1927  cd controllers/
+ 1928  l
+ 1929  nano groups_controller.rb 
+ 1930  cd ..
+ 1931  rm myfile.txt 
+ 1932  cd app
+ 1933  l
+ 1934  cd models/
+ 1935  l
+ 1936  nano group.rb 
+ 1937  cd ..
+ 1938  cd db
+ 1939  l
+ 1940  cd migrate/
+ 1941  l
+ 1942  nano 20120320233122_create_groups.rb 
+ 1943  cd ..
+ 1944  cd app
+ 1945  cd models/
+ 1946  l
+ 1947  nano group.rb 
+ 1948  bundle exec rake db:rollback
+ 1949  bundle exec rake db:migrate
+ 1950  cd ..
+ 1951  rm myfile.txt 
+ 1952  cd app
+ 1953  cd con
+ 1954  cd controllers/
+ 1955  l
+ 1956  nano groups_controller.rb 
+ 1957  bundle exec rake db:migrate
+ 1958  bundle exec rake db:rollback
+ 1959  cd ..
+ 1960  rm myfile.txt 
+ 1961  bundle exec rake db:migrate
+ 1962  clear
+ 1963  cd app
+ 1964  cd controllers/
+ 1965  l
+ 1966  nano groups_controller.rb 
+ 1967  gedit groups_controller.rb 
+ 1968  bundle exec rake db:rollback
+ 1969  bundle exec rake db:migrate
+ 1970  cd ..
+ 1971  rm myfile.txt 
+ 1972  cd app/controllers/
+ 1973  ;
+ 1974  l
+ 1975  gedit groups_controller.rb 
+ 1976  bundle exec rake db:rollback
+ 1977  bundle exec rake db:migrate
+ 1978  cd ..
+ 1979  rm my
+ 1980  l
+ 1981  gedit groups_controller.rb 
+ 1982  cd app/controllers/
+ 1983  gedit groups_controller.rb 
+ 1984  cd Desktop
+ 1985  cd eclipse
+ 1986  sudo ./eclipse
+ 1987  cd Desktop
+ 1988  cd kclars
+ 1989  l
+ 1990  cd ..
+ 1991  cd eclipse
+ 1992  l
+ 1993  sudo ./eclipse
+ 1994  cd Desktop
+ 1995  cd kclars
+ 1996  l
+ 1997  cd kclars/
+ 1998  l
+ 1999  clear
+ 2000  rails s
+ 2001  history
+ 2002  history > h.txt

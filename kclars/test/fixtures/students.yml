@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  stdid: MyString
+  email: MyString
+  modules: MyText
+  rsvps: MyText
+  tutor: MyString
+
+two:
+  name: MyString
+  stdid: MyString
+  email: MyString
+  modules: MyText
+  rsvps: MyText
+  tutor: MyString

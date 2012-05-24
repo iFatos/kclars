@@ -1,0 +1,16 @@
+
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+</div>
+<%= render 'form' %>
+
+<%= link_to 'Show', @student %> |
+<%= link_to 'Back', students_path %>

@@ -1,0 +1,48 @@
+
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+
+</div>
+<table border="1">
+ <tr>
+  <td>Id</td>
+  <td>Title</td>
+  <td>Description</td>
+  <td>City</td>
+  <td>Zip Code</td>
+ </tr>
+<% @groups.each do |group| %>
+  <tr>
+   <td id="groupid"><%= group.id %></td>
+   <td><a href="#dialog" name="modal" ><%= group.title %></a></td>
+   <td><%= truncate_desc(group.description) %></td>
+   <td><%= group.city %></td>
+   <td><%= group.zip %></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @groups %>
+</div>
+<div id="boxes"  >
+<div id="dialog" class="window">
+
+ | 
+
+<a href="#"class="close"/>Close it</a>
+<table border="1">
+<tr><td> Hello</td><td>there</td></tr>
+<tr><td>Whats</td><td>up</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div id="mask"></div>
+</div>

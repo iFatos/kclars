@@ -1,0 +1,30 @@
+
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+
+</div>
+<table border="1">
+ <tr>
+  <td>id</td>
+  <td>Student ID</td>
+  <td>Tutor</td>
+  <td>Modules</td>
+ </tr>
+<% @students.each do |student| %>
+  <tr>
+   <td><%= student.id %></td>
+   <td><%= student.stdid %></td>
+   <td><%= student.tutor %></td>
+   <td><%= student.modules %></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @students %>

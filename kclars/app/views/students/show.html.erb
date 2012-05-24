@@ -1,0 +1,40 @@
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+
+</div>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @student.name %>
+</p>
+
+<p>
+  <b>Stdid:</b>
+  <%= @student.stdid %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @student.email %>
+</p>
+
+<p>
+  <b>Modules:</b>
+  <%= @student.modules %>
+</p>
+
+<p>
+  <b>Rsvps:</b>
+  <%= @student.rsvps %>
+</p>
+
+<p>
+  <b>Tutor:</b>
+  <%= @student.tutor %>
+</p>
+
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>

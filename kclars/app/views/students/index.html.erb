@@ -1,0 +1,41 @@
+
+<div class="group_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+<% form_tag groups_path, :method => 'get' do %>
+<p> 
+ <%= text_field_tag :search, params[:search]  %>
+ <%= submit_tag "Search", :name => nil %>
+</p>
+<% end %>
+</p>
+</div>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Stdid</th>
+    <th>Email</th>
+    <th>Browser History</th>
+    <th>Query Vector</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @students.each do |student| %>
+  <tr>
+    <td><%= student.name %></td>
+    <td><%= student.stdid %></td>
+    <td><%= student.email %></td>
+    <td><%= student.bhistory %></td>
+    <td><%= student.queryvector %></td>
+    <td><%= link_to 'Show', student %></td>
+    <td><%= link_to 'Edit', edit_student_path(student) %></td>
+    <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%= paginate @students %>
+<br />
+
+<%= link_to 'New Student', new_student_path %>

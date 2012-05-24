@@ -1,0 +1,32 @@
+<div class="departments_table" style="margin-left:16.5%">
+<div id="navigation" style="background:white;border:1px outset cadetblue;">
+<p>
+</p>
+
+</div>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @department.title %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @department.ndate %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= "#{@department.ntime.hour}:#{@department.ntime.min}" %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @department.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_department_path(@department) %> |
+<%= link_to 'Back', departments_path %>

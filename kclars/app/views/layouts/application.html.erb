@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+ 
+      
+ <head>
+  <title> KCL - Android Recommendation System | <%= @title %></title>
+  <%= render 'layouts/stylesheets' %>
+  <script type="text/javascript" src="/javascripts/jquery-latest.pack.js"></script>
+  <%= csrf_meta_tag %>
+<script type="text/javascript">
+function getId(){
+alert("helloooooooooooooooooooooOO");
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("groupid").innerHTML=xmlhttp.responseXML;
+    document.write(xmlhttp.responseText); 
+   }
+  }
+ var x = document.getElementById("groupid").innerHTML
+xmlhttp.open("GET","/getid/" + x,true);
+xmlhttp.send();
+}
+</script>
+ <script>
+  
+$(document).ready(function() {	
+
+         
+	//select all the a tag with name equal to modal
+	$('a[name=modal]').click(function(e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		//Get the A tag
+		var id = $(this).attr('href');
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 
+	
+	});
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+
+      
+	$(window).resize(function () {
+	 
+ 		var box = $('#boxes .window');
+ 
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+      
+        //Set height and width to mask to fill up the whole screen
+        $('#mask').css({'width':maskWidth,'height':maskHeight});
+               
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+
+        //Set the popup window to center
+        box.css('top',  winH/2 - box.height()/2);
+        box.css('left', winW/2 - box.width()/2);
+	 
+	});
+	
+});
+
+</script>
+
+ </head>
+
+ <body>
+ <div class="container">
+  <%= render 'layouts/header' %>
+<% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %>
+        
+<div style="display:block; float:left; left:0px; margin-top:1px; width:15%;
+background:white;border:1px outset cadetblue; color:yellow; text-
+align:center;padding:5px;overflow:visible;">
+<h2>Dashboard</h2>
+<a href="/">> Dashboard</a><br>
+<a href="/departments/new">> Add Event</a><br>
+<a href="/groups">> Groups</a><br>
+<a href="/events">> Events</a><br>
+<a href="/students">> Students</a><br>
+</div>
+  <section class="round">
+
+
+  <%= yield %>
+   </section>
+  </div>
+ </body>
+</html>
+
